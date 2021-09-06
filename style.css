@@ -1,0 +1,70 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  background-image: url("https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-14.jpg");
+  background-size: cover;
+}
+#head {
+  text-align: center;
+  margin-bottom: 50px;
+}
+#title {
+  display: inline-block;
+  font-weight: normal;
+  margin-top: 2px;
+  font-size: 42px;
+  border-bottom: 2px solid aquamarine;
+  padding-bottom: 5px;
+  width: 450px;
+  color: aqua;
+  margin-bottom: 50px;
+}
+#btn {
+  font-weight: normal;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  padding: 10px 40px;
+  transition: padding 0.2s;
+}
+#btn:hover {
+  color: black;
+  font-weight: bolder;
+  background-color: rgb(196, 196, 196);
+  padding: 15px 50px;
+  transition: padding 0.2s;
+}
+#info {
+  color: aquamarine;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+table,
+td,
+th {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+table {
+  margin: 10px auto;
+}
+th {
+  letter-spacing: 2px;
+  font-size: 30px;
+  padding: 10px 20px;
+}
+td {
+  font-size: 25px;
+  padding: 10px 20px;
+  text-align: center;
+  height: 350px;
+}
+#name_titl {
+  width: 30%;
+}
+#gender_titl {
+  width: 20%;
+}
+#img_titl {
+  width: 100%;
+}
